@@ -13,7 +13,7 @@ cd libconflate
 git pull ssh://trond@review.couchbase.org:29418/libconflate refs/changes/29/26929/2
 cd ..
 cd couchstore
-git pull ssh://trond@review.couchbase.org:29418/couchstore refs/changes/61/26861/7
+git pull ssh://trond@review.couchbase.org:29418/couchstore refs/changes/61/26861/8
 cd ..
 cd libmemcached
 git remote add trond git://github.com/trondn/libmemcached
@@ -21,7 +21,7 @@ git remote update
 git rebase trond/cmake
 cd ..
 cd ep-engine
-git pull ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/3
+git pull ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/5
 cd ..
 
 cp tlm/CMakeLists.txt .
