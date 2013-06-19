@@ -1,10 +1,4 @@
-git clone git://github.com/couchbase/tlm
-git clone git://github.com/couchbase/libvbucket
-git clone git://github.com/membase/memcached
-git clone git://github.com/couchbase/libconflate
-git clone git://github.com/couchbase/couchstore
-git clone git://github.com/trondn/libmemcached
-git clone git://github.com/couchbase/ep-engine
+#! /bin/bash
 
 cd tlm
 git pull ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/26543/16
@@ -22,10 +16,12 @@ cd couchstore
 git pull ssh://trond@review.couchbase.org:29418/couchstore refs/changes/61/26861/7
 cd ..
 cd libmemcached
-git checkout -b cmake origin/cmake
+git remote add trond git://github.com/trondn/libmemcached
+git remote update
+git rebase trond/cmake
 cd ..
 cd ep-engine
 git pull ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/3
 cd ..
 
-copy tlm\CMakeLists.txt .
+cp tlm/CMakeLists.txt .
