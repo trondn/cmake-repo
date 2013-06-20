@@ -13,7 +13,7 @@ cd libvbucket
 git pull ssh://trond@review.couchbase.org:29418/libvbucket refs/changes/96/26096/8
 cd ..
 cd memcached
-git pull ssh://trond@review.couchbase.org:29418/memcached refs/changes/13/26113/21
+git pull ssh://trond@review.couchbase.org:29418/memcached refs/changes/13/26113/22
 cd ..
 cd libconflate
 git pull ssh://trond@review.couchbase.org:29418/libconflate refs/changes/29/26929/2

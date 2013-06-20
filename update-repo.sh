@@ -7,7 +7,7 @@ cd libvbucket
 git fetch ssh://trond@review.couchbase.org:29418/libvbucket refs/changes/96/26096/8 && git cherry-pick FETCH_HEAD
 cd ..
 cd memcached
-git fetch ssh://trond@review.couchbase.org:29418/memcached refs/changes/13/26113/21 && git cherry-pick FETCH_HEAD
+git fetch ssh://trond@review.couchbase.org:29418/memcached refs/changes/13/26113/22 && git cherry-pick FETCH_HEAD
 cd ..
 cd libconflate
 git fetch ssh://trond@review.couchbase.org:29418/libconflate refs/changes/29/26929/2 && git cherry-pick FETCH_HEAD
