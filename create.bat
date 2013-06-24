@@ -7,7 +7,7 @@ git clone git://github.com/trondn/libmemcached
 git clone git://github.com/couchbase/ep-engine
 
 cd tlm
-git pull ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/26543/16
+git pull ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/26543/17
 cd ..
 cd libvbucket
 git pull ssh://trond@review.couchbase.org:29418/libvbucket refs/changes/96/26096/8
