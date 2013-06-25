@@ -25,7 +25,7 @@ cd libmemcached
 git checkout -b cmake origin/cmake
 cd ..
 cd ep-engine
-git pull ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/6
+git pull ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/7
 cd ..
 
 copy tlm\CMakeLists.txt .

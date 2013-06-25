@@ -21,9 +21,6 @@ git remote update
 git rebase trond/cmake
 cd ..
 cd ep-engine
-git fetch ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/92/26992/1 && git cherry-pick FETCH_HEAD
-git fetch ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/93/26993/2 && git cherry-pick FETCH_HEAD
-git fetch ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/6 && git cherry-pick FETCH_HEAD
+git fetch ssh://trond@review.couchbase.org:29418/ep-engine refs/changes/96/26996/7 && git cherry-pick FETCH_HEAD
 cd ..
-
 cp tlm/CMakeLists.txt .
