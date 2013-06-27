@@ -2,7 +2,7 @@
 
 cd tlm
 git fetch ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/27143/2 && git cherry-pick FETCH_HEAD
-git fetch ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/26543/23 && git cherry-pick FETCH_HEAD
+git fetch ssh://trond@review.couchbase.org:29418/tlm refs/changes/43/26543/24 && git cherry-pick FETCH_HEAD
 cd ..
 cd libvbucket
 git fetch ssh://trond@review.couchbase.org:29418/libvbucket refs/changes/96/26096/10 && git cherry-pick FETCH_HEAD
